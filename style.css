@@ -1,0 +1,1874 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: #fffdf5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.header-logo svg {
+  width: 9rem;
+  cursor: pointer;
+}
+
+.thumb {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #e7332b;
+  width: 2.3rem;
+  height: 2.3rem;
+  z-index: 1;
+}
+
+.thumb img {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.header-btn {
+  padding: 0.8rem 0.6rem;
+  width: 8.5rem;
+  color: white;
+  background: #e7332b;
+  font-size: 1.1rem;
+  border-radius: 1.3rem;
+  letter-spacing: 1px;
+  margin-left: -1rem;
+  cursor: pointer;
+}
+
+.enroll-now {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 1rem 0;
+  background: #fffdf5;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+section {
+  padding: 7rem 0 0;
+}
+
+.first-article-content {
+  text-align: center;
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.first-article-content h1 {
+  padding: 0.5rem 0;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.first-article-content p {
+  padding: 2rem 0;
+  color: #1b1a20;
+}
+
+.red-text {
+  color: #e7332b;
+  font-size: 1.2rem;
+}
+
+.line-container {
+  position: relative;
+}
+
+.line-container h1 {
+  padding-bottom: 1.3rem;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+}
+
+.line svg {
+  width: 6.5rem;
+}
+
+.first-article-btn {
+  padding: 0.8rem 0.6rem;
+  width: 8.5rem;
+  color: white;
+  background: #e7332b;
+  font-size: 1.1rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.curve-arrow {
+  position: absolute;
+  bottom: 4%;
+  right: 1rem;
+}
+
+.curve-arrow svg {
+  height: 4rem;
+}
+
+.second-article-content {
+  border-top: 1px solid rgb(180, 180, 180);
+  border-bottom: 1px solid rgb(180, 180, 180);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.second-article-content h1 {
+  font-size: 1.3rem;
+}
+
+.second-article-content p {
+  font-size: 1.2rem;
+}
+
+.ingressive {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem 0;
+}
+
+.readmore {
+  color: #43b97f;
+  border-bottom: 1px solid #43b97f;
+}
+
+.third-article {
+  background: linear-gradient(#fffdf5, #f5ecf0);
+}
+
+.third-article-content {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.third-article-content p {
+  font-size: 1.2rem;
+  color: #e7332b;
+}
+
+.third-article-content h1 {
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.curvy-arrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 42%;
+}
+
+.curvy-arrow svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.gain-box {
+  padding: 4rem 3rem 4rem 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  cursor: pointer;
+}
+
+.gain-box:hover {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.curve {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.curve svg,
+.curve1 {
+  width: 7rem;
+  height: 7rem;
+}
+
+.gain-box h1 {
+  font-size: 3rem;
+  padding: 0 0 1.5rem;
+  font-weight: 700;
+}
+
+.gain-mid {
+  font-size: 1.3rem;
+}
+
+.gain-end {
+  display: inline-block;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.fully-remote {
+  background: #e7332b;
+  color: white;
+}
+
+.fourth-article {
+  background: #e7332b;
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.fourth-article-curvy-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-article-curvy-arrow svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.fourth-article-content p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.fourth-article-content h1 {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.fourth-article-btn {
+  padding: 0.5rem 1.5rem;
+  margin: 2.5rem 0;
+  border-radius: 5rem;
+  font-size: 1.2rem;
+  color: #e7332b;
+  background: white;
+  cursor: pointer;
+}
+
+.fourth-dots {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.fourth-article-btn:hover {
+  box-shadow: 0 2px 5px #1b1a20;
+}
+
+.quality-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 1.5rem;
+}
+
+.quality-btns button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: none;
+  border: 2px solid white;
+  border-radius: 2.5rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.quality-btns button p {
+  padding-left: 0.8rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.quality-btns button svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.glasslady {
+  padding: 1.5rem 0 3rem;
+}
+
+.fifth-article {
+  padding: 4rem 0;
+}
+
+.fifth-article-content p {
+  font-size: 1.2rem;
+  color: #e7332b;
+}
+
+.fifth-article-content h1 {
+  font-size: 1.5rem;
+}
+
+.fifth-curvy-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-curvy-arrow svg {
+  height: 10rem;
+  width: 10rem;
+}
+
+.dev {
+  padding: 2.5rem 2rem 4rem;
+  margin-bottom: 2rem;
+  background: white;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  border-radius: 2.5rem;
+}
+
+.dev h1 {
+  font-size: 1.2rem;
+}
+
+.dev p {
+  font-size: 1.1rem;
+  color: #1b1a20;
+}
+
+.tech-stack {
+  display: flex;
+  padding: 1rem 0 2rem;
+}
+
+.css,
+.python,
+.js,
+.figma,
+.bash,
+.aws,
+.react,
+.django {
+  margin-left: 0.5rem;
+}
+
+.html svg,
+.php svg,
+.python svg,
+.css svg,
+.js svg,
+.aws svg,
+.xd svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.laravel svg,
+.react svg,
+.django svg {
+  width: 5rem;
+  height: 4rem;
+}
+
+.bash svg,
+.ubuntu svg {
+  height: 40px;
+  width: 100px;
+}
+
+.figma svg {
+  height: 50px;
+}
+
+.fifth-article-btn {
+  padding: 0.8rem 0.6rem;
+  width: 8.5rem;
+  color: white;
+  background: #e7332b;
+  font-size: 1.1rem;
+  border-radius: 1.5rem;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+.sixth-article-content {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 2rem 0 3rem;
+  position: relative;
+}
+
+.sixth-curvy-arrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 0.8rem;
+}
+
+.sixth-curvy-arrow svg {
+  height: 6rem;
+  width: 6rem;
+}
+
+.sixth-article-header {
+  text-align: center;
+  padding-top: 4.5rem;
+}
+
+.sixth-article-header p {
+  color: #e7332b;
+  font-size: 1.3rem;
+}
+
+.sixth-article-body {
+  margin: 8rem 0 3rem;
+  border: 1px solid gray;
+}
+
+.faq {
+  padding: 1.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.plus {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.plus.show {
+  transform: rotate(90deg);
+  transition: all ease-out 0.2s;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h3 {
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+
+.answer {
+  padding-top: 0.8rem;
+  display: none;
+}
+
+.answer.show {
+  display: block;
+}
+
+.sixth-article-footer {
+  text-align: center;
+}
+
+.sixth-article-footer button {
+  padding: 0.8rem 1.3rem;
+  background: #e7332b;
+  color: white;
+  border-radius: 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.sixth-article-footer button i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sixth-article-footer button:hover {
+  box-shadow: 0 2px 5px #1b1a20;
+}
+
+.sixth-article-footer p {
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.seventh-article-header {
+  text-align: center;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.seventh-article-header span {
+  font-size: 1.3rem;
+  color: #e7332b;
+}
+
+.seventh-article-header h3 {
+  font-size: 1.5rem;
+}
+
+.seventh-article-header p {
+  padding-top: 1rem;
+}
+
+.star svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.seventh-curvy-arrow svg {
+  height: 4rem;
+  width: 4rem;
+}
+
+.seventh-curvy-arrow,
+.star {
+  position: absolute;
+}
+
+.star {
+  right: 0;
+  top: 15%;
+}
+
+.seventh-curvy-arrow {
+  top: 14%;
+  left: 8%;
+}
+
+.full-part {
+  background: #1b1a20;
+  padding: 4.3rem 3rem;
+  margin-bottom: 3rem;
+  color: #fffdf5;
+  border-radius: 4rem;
+  box-shadow: 0 0 2rem #f5bab7;
+}
+
+.full-part h1 {
+  font-size: 2rem;
+}
+
+.full-part ul li svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.full-part span p {
+  padding: 1.2rem 0 0;
+}
+
+.full-part h3 {
+  padding-top: 1.3rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.full-part .enquires li {
+  list-style: none;
+  list-style-position: inside;
+}
+
+.full-part ul {
+  padding-left: 1.3rem;
+}
+
+.full-part ul li {
+  list-style: disc;
+  line-height: 25px;
+}
+
+.seventh-article-body {
+  position: relative;
+  padding-bottom: 0.2rem;
+}
+
+.dots {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  bottom: 0rem;
+  right: -1rem;
+  z-index: -1;
+}
+
+.eighth-article {
+  padding: 4rem 0 3rem;
+}
+
+.eighth-article-content {
+  background: #e7332b;
+  border-radius: 1.5rem;
+  position: relative;
+  text-align: center;
+  padding: 5rem 3rem 5rem;
+  color: #fffdf5;
+}
+
+.eighth-article-content p {
+  font-size: 1.2rem;
+}
+
+.eighth-article-content h1 {
+  padding: 1.5rem 0 2rem;
+  font-size: 2rem;
+}
+
+.eighth-article-content button {
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border-radius: 2rem;
+  color: #e7332b;
+}
+
+.eighth-article-content button:hover {
+  box-shadow: 0 2px 5px #1b1a20;
+}
+
+.bg-design-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-design-right svg,
+.bg-design-left svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-design-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.eighth-dots {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bg-spiral {
+  position: absolute;
+  top: 2.7rem;
+  left: 2.5rem;
+}
+
+.bg-spiral svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.eighth-dots img {
+  width: 3rem;
+  height: 5rem;
+}
+
+.icon {
+  background: #e7332b;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.icon i {
+  padding-top: 0.6rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer-logo {
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer-logo svg {
+  width: 100%;
+}
+
+.footer-medias {
+  padding: 1rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content-two {
+  text-align: center;
+}
+
+.footer-content-two ul li {
+  line-height: 4rem;
+  cursor: pointer;
+}
+
+.footer-content-two hr {
+  border: 1px solid rgb(192, 191, 191);
+  margin: 1rem 0 1rem;
+}
+
+.footer-content-two p {
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+
+.nerdboy,
+.menu,
+.star,
+.circle,
+.techguy,
+.desktop-arrow {
+  display: none;
+}
+
+@media only screen and (max-width: 20rem) {
+  .header-logo svg {
+    width: 6.5rem;
+  }
+
+  .thumb {
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .thumb img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .header-btn {
+    padding: 0.8rem 0.5rem;
+    width: 7rem;
+    font-size: 0.8rem;
+    margin-left: -0.5rem;
+  }
+
+  .curve svg,
+  .curve1 {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .quality-btns button {
+    padding: 0.5rem 0 0.5rem 1rem;
+  }
+
+  .quality-btns button p {
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .quality-btns button svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .tech-stack {
+    display: flex;
+    padding: 1rem 0 2rem;
+  }
+
+  .django {
+    margin-left: 0.5rem;
+  }
+
+  .aws svg {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .laravel svg,
+  .react svg,
+  .django svg {
+    width: 4rem;
+    height: 5rem;
+  }
+
+  .bash svg,
+  .ubuntu svg {
+    height: 40px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 31.25rem) {
+  .header-logo svg {
+    width: 12rem;
+  }
+
+  .thumb {
+    padding: 0.6rem;
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+
+  .thumb img {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+
+  .header-btn {
+    padding: 0.8rem 0.3rem;
+    width: 8.8rem;
+    font-size: 1.2rem;
+  }
+
+  .line {
+    right: 2rem;
+  }
+
+  .line-container h1 {
+    padding-bottom: 1.8rem;
+  }
+
+  .line svg {
+    width: 9rem;
+  }
+
+  .quality-btns button {
+    padding: 1rem;
+  }
+
+  .quality-btns button p {
+    font-size: 1rem;
+  }
+
+  .quality-btns button svg {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+
+  .fourth-dots {
+    height: 2.8rem;
+    width: 2.8rem;
+  }
+
+  .fifth-article-btn {
+    margin: 5rem 0 2rem;
+  }
+
+  .dots {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .seventh-article-body {
+    padding-bottom: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 43.75rem) {
+  .header-logo svg {
+    width: 20rem;
+  }
+
+  .thumb {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .thumb img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .header-btn {
+    padding: 0.9rem 0.3rem;
+    width: 10rem;
+  }
+
+  .red-text {
+    font-size: 1.5rem;
+  }
+
+  .line-container h1 {
+    padding-bottom: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .line svg {
+    width: 12rem;
+  }
+
+  .first-article-content p {
+    padding: 3rem 0 2rem;
+    font-size: 1.5rem;
+  }
+
+  .first-article-btn {
+    width: 12rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    padding: 1.2rem 0;
+  }
+
+  .first-article-content {
+    padding-bottom: 13rem;
+  }
+
+  .curve-arrow {
+    position: absolute;
+    bottom: 3%;
+    right: 26%;
+  }
+
+  .curve-arrow svg {
+    height: 10rem;
+  }
+
+  .second-article-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .second-article-content p {
+    font-size: 1.6rem;
+  }
+
+  .ingressive {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .curvy-arrow svg {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .third-article-content {
+    padding: 10rem 0;
+  }
+
+  .third-article-content p {
+    font-size: 1.8rem;
+  }
+
+  .third-article-content h1 {
+    font-size: 2rem;
+  }
+
+  .curve svg,
+  .curve1 {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .fourth-article p {
+    font-size: 1.5rem;
+  }
+
+  .fourth-article h1 {
+    font-size: 2rem;
+  }
+
+  .fourth-article-btn {
+    padding: 1rem 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .quality-btns button {
+    padding: 1.5rem 0 1.5rem 1rem;
+    border-radius: 5rem;
+  }
+
+  .quality-btns button p {
+    font-size: 1.3rem;
+  }
+
+  .quality-btns button svg {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .gain-box {
+    padding: 6rem 3rem 8rem 4rem;
+  }
+
+  .gain-box h1 {
+    font-size: 4rem;
+  }
+
+  .gain-mid {
+    font-size: 1.5rem;
+  }
+
+  .gain-end {
+    font-size: 1.3rem;
+  }
+
+  .fourth-article {
+    padding: 10rem 2rem 3rem;
+  }
+
+  .nerdboy {
+    display: block;
+    position: absolute;
+  }
+
+  .fourth-article-curvy-arrow svg {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    right: 25%;
+    top: 2%;
+  }
+
+  .fourth-dots {
+    height: 3.5rem;
+    width: 4rem;
+  }
+
+  .fifth-curvy-arrow svg {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .fifth-article-content p {
+    font-size: 1.5rem;
+  }
+
+  .fifth-article-content h1 {
+    font-size: 2.3rem;
+  }
+
+  .dev {
+    padding: 2.5rem 3rem 4rem;
+  }
+
+  .dev h1 {
+    font-size: 1.8rem;
+  }
+
+  .html svg,
+  .php svg,
+  .python svg,
+  .css svg,
+  .js svg,
+  .aws svg,
+  .xd svg {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .laravel svg,
+  .react svg,
+  .django svg {
+    width: 6rem;
+    height: 5rem;
+  }
+
+  .bash svg,
+  .ubuntu svg {
+    height: 50px;
+    width: 110px;
+  }
+
+  .figma svg {
+    height: 60px;
+  }
+
+  .fifth-article-btn {
+    padding: 0.8rem 0.7rem;
+    width: 9.5rem;
+    font-size: 1.2rem;
+  }
+
+  .sixth-curvy-arrow {
+    top: 2rem;
+    left: 0.8rem;
+  }
+
+  .sixth-curvy-arrow svg {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .sixth-article-header {
+    padding-top: 8rem;
+  }
+
+  .sixth-article-header p {
+    font-size: 1.8rem;
+  }
+
+  .sixth-article-header h1 {
+    font-size: 2.4rem;
+  }
+
+  .plus {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .question h3 {
+    font-size: 1.5rem;
+  }
+
+  .answer {
+    font-size: 1.3rem;
+  }
+
+  .sixth-article-footer button {
+    padding: 1rem 1.3rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .sixth-article-footer button i {
+    font-size: 1.8rem;
+  }
+
+  .sixth-article-footer p {
+    padding-bottom: 0;
+    font-size: 1.3rem;
+  }
+
+  .seventh-article-header {
+    text-align: center;
+    padding: 11rem 0 4rem;
+  }
+
+  .seventh-article-header span {
+    font-size: 1.8rem;
+  }
+
+  .seventh-article-header h3 {
+    font-size: 2rem;
+  }
+
+  .seventh-article-header p {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .star svg {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .seventh-curvy-arrow svg {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .full-part h1 {
+    font-size: 2.5rem;
+  }
+
+  .full-part ul li svg {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+
+  .full-part h3 {
+    padding-top: 1.5rem;
+  }
+
+  .full-part ul li {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .dots {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .seventh-article-body {
+    padding-bottom: 5rem;
+  }
+
+  .eighth-article {
+    padding: 4rem 0 3rem;
+  }
+
+  .eighth-article-content {
+    padding: 6rem 8rem 12rem;
+  }
+
+  .eighth-article-content p {
+    font-size: 1.5rem;
+  }
+
+  .eighth-article-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .eighth-article-content button {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .bg-design-right svg,
+  .bg-design-left svg {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .bg-spiral svg {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .eighth-dots img {
+    width: 8rem;
+    height: 10rem;
+  }
+
+  .icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .icon i {
+    padding-top: 1.2rem;
+    font-size: 1.6rem;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .footer-logo {
+    padding-top: 4rem;
+  }
+
+  .footer-medias {
+    padding: 1.5rem 0 2rem;
+  }
+
+  .footer-content-two ul li {
+    font-size: 1.5rem;
+  }
+
+  .footer-content-two p {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 62.5rem) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu li {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .header-logo svg {
+    width: 12rem;
+    padding-right: 3rem;
+  }
+
+  .header-btn {
+    padding: 0.8rem 0.5rem;
+    width: 8.8rem;
+  }
+
+  .thumb {
+    margin-left: 3rem;
+  }
+
+  .lady1 {
+    width: 45rem;
+  }
+
+  .line-container h1 {
+    font-size: 3rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .line {
+    right: 11rem;
+  }
+
+  .line svg {
+    width: 16rem;
+  }
+
+  .second-article-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  .second-article-content h1 {
+    text-align: left;
+  }
+
+  .second-article-content p {
+    font-size: 1.3rem;
+    text-align: right;
+  }
+
+  .ingressive {
+    width: 11rem;
+    height: 11rem;
+    padding: 0;
+  }
+
+  .gain-box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .gain-box {
+    padding-bottom: 3.8rem;
+  }
+
+  .star {
+    display: block;
+    width: 15rem;
+    position: absolute;
+    top: 3rem;
+  }
+
+  .third-content-flex {
+    width: 50%;
+  }
+
+  .curvy-arrow {
+    position: absolute;
+    top: 1.5rem;
+    left: 30%;
+  }
+
+  .curvy-arrow svg {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .third-article-content {
+    padding: 5rem 0;
+  }
+
+  .fourth-article {
+    padding: 14rem 2rem 3rem;
+  }
+
+  .fourth-article-curvy-arrow svg {
+    width: 12rem;
+    height: 12rem;
+    right: 15%;
+  }
+
+  .fourth-article p {
+    font-size: 1.2rem;
+  }
+
+  .fourth-article-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .quality-btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .quality-btns button {
+    padding: 0.8rem;
+  }
+
+  .quality-btns button p {
+    font-size: 1rem;
+  }
+
+  .quality-btns button svg {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .fourth-dots {
+    height: 4rem;
+    width: 5rem;
+  }
+
+  .dev-lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .fifth-curvy-arrow svg {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .fifth-article-content p {
+    font-size: 1.5rem;
+  }
+
+  .fifth-article-content h1 {
+    font-size: 2rem;
+  }
+
+  .dev h1 {
+    font-size: 1.5rem;
+  }
+
+  .dev p {
+    font-size: 1.2rem;
+  }
+
+  .html svg,
+  .php svg,
+  .python svg,
+  .css svg,
+  .js svg,
+  .aws svg,
+  .xd svg {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .laravel svg,
+  .react svg,
+  .django svg {
+    width: 5.5rem;
+    height: 4.5rem;
+  }
+
+  .bash svg,
+  .ubuntu svg {
+    height: 40.5px;
+    width: 100.5px;
+  }
+
+  .figma svg {
+    height: 50.5px;
+  }
+
+  .sixth-curvy-arrow {
+    top: 1.5rem;
+    left: 5rem;
+  }
+
+  .sixth-curvy-arrow svg {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .sixth-article-header {
+    padding-top: 7rem;
+  }
+
+  .sixth-article-header p {
+    font-size: 1.5rem;
+  }
+
+  .sixth-article-header h1 {
+    font-size: 2rem;
+  }
+
+  .sixth-article-body {
+    margin: 8rem auto 3rem;
+    width: 80%;
+  }
+
+  .plus {
+    font-size: 1.5rem;
+  }
+
+  .question h3 {
+    font-size: 1.1rem;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+  }
+
+  .sixth-article-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sixth-article-footer button {
+    margin-left: 1rem;
+  }
+
+  .sixth-article-footer p {
+    padding-top: 0.6rem;
+  }
+
+  .star svg {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .seventh-curvy-arrow svg {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .seventh-article-header h3 {
+    font-size: 1.8rem;
+  }
+
+  .seventh-article-header p {
+    font-size: 1.3rem;
+  }
+
+  .full-part-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .dots {
+    width: 10rem;
+    height: 10rem;
+    right: -2.4rem;
+  }
+
+  .seventh-article-body {
+    padding-bottom: 1rem;
+  }
+
+  .circle {
+    display: block;
+    width: 6rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .eighth-article-content {
+    padding: 3.5rem 5rem 5rem;
+  }
+
+  .eighth-article-content h1 {
+    padding: 1.5rem 0 2rem;
+    font-size: 2.5rem;
+    width: 23rem;
+    margin: auto;
+  }
+
+  .bg-design-right svg,
+  .bg-design-left svg {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .bg-spiral {
+    top: 2.7rem;
+    left: 8rem;
+  }
+
+  .bg-spiral svg {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .eighth-dots img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .footer-content-two,
+  .footer-content-two ul,
+  .footer-content-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .icon i {
+    padding-top: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  .footer-logo {
+    padding-top: 0;
+  }
+
+  .footer-content-two {
+    direction: rtl;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .footer-content-two ul li {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+  }
+
+  .footer-content-two p {
+    padding-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .footer-txt {
+    direction: ltr;
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+  .menu {
+    width: 45%;
+    margin-left: auto;
+  }
+
+  .header-logo svg {
+    width: 18rem;
+    padding-right: 1rem;
+  }
+
+  .lady1 {
+    width: 20rem;
+    height: 22rem;
+    position: absolute;
+    left: 0;
+    top: 10rem;
+  }
+
+  .techguy {
+    display: block;
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    right: 0;
+    top: 10rem;
+  }
+
+  section {
+    padding: 10rem 0 0;
+  }
+
+  .first-article-content-wrap {
+    width: 40rem;
+    margin: auto;
+  }
+
+  .line-container h1 {
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    padding-bottom: 2.4rem;
+  }
+
+  .line {
+    right: 2rem;
+  }
+
+  .line svg {
+    width: 14rem;
+  }
+
+  .first-article-content p {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .curve-arrow {
+    right: 27rem;
+  }
+
+  .curve-arrow svg {
+    height: 11rem;
+  }
+
+  .second-article-content p {
+    font-size: 1.5rem;
+  }
+
+  .ingressive {
+    width: 20rem;
+    height: 13rem;
+  }
+
+  .gain-box-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .curvy-arrow {
+    left: 23%;
+  }
+
+  .fourth-article {
+    padding: 5rem 2rem 3rem;
+  }
+
+  .fourth-article-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fourth-article-content div {
+    position: relative;
+    padding-top: 2rem;
+  }
+
+  .fourth-article-curvy-arrow svg {
+    top: -4rem;
+    width: 8rem;
+    height: 8rem;
+    right: 0;
+  }
+
+  .glasslady {
+    width: 42rem;
+    height: 35rem;
+  }
+
+  .fourth-article-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .fourth-article p {
+    padding-right: 3rem;
+  }
+
+  .quality-btns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quality-btns button p {
+    padding: 0 0 0 1rem;
+  }
+
+  .fourth-dots {
+    margin-top: 2rem;
+    height: 7rem;
+    width: 9rem;
+  }
+
+  .dev-lists {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sixth-curvy-arrow {
+    top: 1.5rem;
+    left: 5rem;
+  }
+
+  .sixth-article-body {
+    margin: 6rem auto 3rem;
+  }
+
+  .bg-design-right svg,
+  .bg-design-left svg {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .bg-spiral {
+    top: 2.7rem;
+    left: 9rem;
+  }
+
+  .bg-spiral svg {
+    width: 12rem;
+    height: 10rem;
+  }
+
+  .eighth-dots img {
+    width: 8rem;
+    height: 6rem;
+  }
+
+  .eighth-article-content h1 {
+    font-size: 3rem;
+    width: 28rem;
+  }
+
+  .icon i {
+    padding-top: 0.8rem;
+  }
+
+  .full-part-grid {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seventh-article-body {
+    position: relative;
+  }
+
+  .desktop-arrow {
+    display: block;
+    position: absolute;
+    top: 22%;
+    left: -3.5rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .container {
+    width: 80rem;
+  }
+}
