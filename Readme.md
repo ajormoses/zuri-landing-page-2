@@ -1,6 +1,6 @@
 # ZURI ACADEMY - I'm new to the industry page
 
-![Design preview for the I need industry experience](./design/assignment.JPG)
+![Design preview for the I'm new to the industry page](./design/Assignment.JPG)
 
 ## Overview
 
