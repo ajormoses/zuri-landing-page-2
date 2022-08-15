@@ -37,6 +37,7 @@ body {
 .header-logo svg {
   width: 9rem;
   cursor: pointer;
+  z-index: 1;
 }
 
 .thumb {
